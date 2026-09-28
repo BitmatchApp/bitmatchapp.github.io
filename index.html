@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BitMatch: free camera card offloading for Mac</title>
-  <meta name="description" content="BitMatch copies camera cards to several drives at once, reads every copy back with SHA-256, and tells you when the card is safe to erase. Free and open source for Mac. An alternative to ShotPut Pro, Silverstack, and Hedge.">
+  <meta name="description" content="BitMatch copies camera cards to several drives at once, reads every copy back and checks it against the card. Free and open source for Mac. An alternative to ShotPut Pro, Silverstack, and Hedge.">
   <link rel="canonical" href="https://bitmatchapp.github.io/">
   <link rel="icon" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/icon.png">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="BitMatch: know when the card is safe to erase">
+  <meta property="og:title" content="BitMatch: offload camera cards the careful way">
   <meta property="og:description" content="Free, open-source camera card offloading for Mac. Copy to several drives and verify every file with SHA-256.">
   <meta property="og:url" content="https://bitmatchapp.github.io/">
   <meta property="og:image" content="https://bitmatchapp.github.io/assets/og.png">
@@ -180,8 +180,8 @@
     <main>
       <section class="hero">
         <div>
-          <h1>Know when the card is safe to erase.</h1>
-          <p class="lede">BitMatch copies camera cards to as many drives as you like, reads every copy back from the drive, and <strong>only turns green when every file on every drive matches the card.</strong> Free and open source, for Mac.</p>
+          <h1>Offload camera cards the careful way.</h1>
+          <p class="lede">BitMatch copies your cards to as many drives as you like, checks every copy against the card, and tells you plainly when you're done. <strong>Free, with no subscription and no account.</strong> Open source, for Mac.</p>
           <div class="actions">
             <a class="download" href="https://github.com/BitmatchApp/Bitmatch/releases/latest">
               <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10m0 0-4-4m4 4 4-4M4 16h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -222,23 +222,35 @@
       <section class="points">
         <div>
           <h2>Every drive at once</h2>
-          <p>BitMatch reads the card once and writes every drive at the same time. Queue the next card while this one copies.</p>
+          <p>BitMatch reads the card once and writes every drive at the same time, so a second backup doesn't mean reading the card twice.</p>
         </div>
         <div>
-          <h2>Checked on the drive, not in memory</h2>
-          <p>Every copy is read back from the drive itself and compared with SHA-256. Thorough also re-reads the card; Paranoid compares every byte.</p>
+          <h2>Checked on the drive</h2>
+          <p>Each copy is read back from the drive itself and compared with the card using SHA-256. Four modes, from a quick copy to byte-by-byte.</p>
         </div>
         <div>
-          <h2>Reports you can hand off</h2>
-          <p>PDF, CSV and JSON reports beside every copy, a daily master report, and ASC MHL records for post.</p>
+          <h2>Queue your cards</h2>
+          <p>Plug in the next card while one copies. Every card gets its own row with its progress and its result.</p>
+        </div>
+        <div>
+          <h2>Knows your camera</h2>
+          <p>Sony, Canon, ARRI, RED, Blackmagic, Panasonic, Fujifilm, GoPro, DJI, Insta360 and plain DCIM cards, with folders named by camera and card.</p>
+        </div>
+        <div>
+          <h2>Reports for post</h2>
+          <p>PDF, CSV and JSON reports beside every copy, ASC MHL records, and a daily master report.</p>
+        </div>
+        <div>
+          <h2>Free, open and yours</h2>
+          <p>No subscription, no account, no tracking. Signed and notarized by Apple, open source, and it updates itself.</p>
         </div>
       </section>
 
       <section class="finish">
         <div>
-          <h2>Green means verified. Nothing else is.</h2>
-          <p>The card is only called safe to erase when every file landed on every drive and read back matching. A size-only copy says so in amber. Anything missing says what and where, in red.</p>
-          <p>A card that changed during the copy, files that only live in iCloud, or two "backups" on the same physical drive never count as safe. Eject is right there when it is.</p>
+          <h2>The pro offload app, minus the price.</h2>
+          <p>If you've used a paid offload app, you'll feel at home: several destinations, checksum verification, a card queue, camera-aware folders, reports and ASC MHL.</p>
+          <p>BitMatch does that for free, in a native app that stays out of your way.</p>
         </div>
         <figure class="finish-shot"><img src="assets/mac-safe.png" width="1740" height="450" alt="The transfer list: CardA is safe to erase with an Eject button, CardB is copying, CardC is waiting"></figure>
       </section>
