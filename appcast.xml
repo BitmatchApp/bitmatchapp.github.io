@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>BitMatch Updates</title>
+    <link>https://bitmatchapp.github.io/</link>
+    <description>BitMatch release updates</description>
+    <item>
+      <title>Version 0.2.1</title>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <pubDate>Mon, 28 Sep 2026 12:55:07 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://github.com/BitmatchApp/Bitmatch/releases/tag/v0.2.1</sparkle:releaseNotesLink>
+      <sparkle:minimumSystemVersion>15.5</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/BitmatchApp/Bitmatch/releases/download/v0.2.1/BitMatch-0.2.1.dmg" sparkle:edSignature="kno3H9svnrJWLfpnpzuBGN0HARW+XdlP+3yTB3xRiwiS6xRoEpBs4/KnMOanjMzXOg9dmiXoYqoUoKo37zzsBA==" length="7669619" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
