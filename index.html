@@ -215,18 +215,18 @@
       </section>
 
       <section class="shot">
-        <img src="assets/mac-setup.png" width="1520" height="1396" alt="BitMatch on Mac with a Sony card as the source, two destination drives, and Start verified copy ready">
-        <p>Pick the card, pick your drives, press Start.</p>
+        <img src="assets/mac.png" width="1800" height="1350" alt="BitMatch on Mac: the card and destination drives at the top, and a queue below where one card is safe to erase, one is copying and one is waiting">
+        <p>Pick the card, pick your drives, press Start. Each card becomes a row that shows its own progress.</p>
       </section>
 
       <section class="points">
         <div>
           <h2>Every drive at once</h2>
-          <p>Copy one card to two, three or more drives in a single pass. Queue the next card while this one copies.</p>
+          <p>BitMatch reads the card once and writes every drive at the same time. Queue the next card while this one copies.</p>
         </div>
         <div>
           <h2>Checked on the drive, not in memory</h2>
-          <p>Every copy is read back from the drive itself and compared with SHA-256. Quick, Standard, Thorough and Paranoid modes.</p>
+          <p>Every copy is read back from the drive itself and compared with SHA-256. Thorough also re-reads the card; Paranoid compares every byte.</p>
         </div>
         <div>
           <h2>Reports you can hand off</h2>
@@ -238,9 +238,9 @@
         <div>
           <h2>Green means verified. Nothing else is.</h2>
           <p>The card is only called safe to erase when every file landed on every drive and read back matching. A size-only copy says so in amber. Anything missing says what and where, in red.</p>
-          <p>Eject is right there when it's safe.</p>
+          <p>A card that changed during the copy, files that only live in iCloud, or two "backups" on the same physical drive never count as safe. Eject is right there when it is.</p>
         </div>
-        <figure class="finish-shot"><img src="assets/mac-finish.png" width="1520" height="606" alt="Finish screen: A7IV_CARD1 is safe to erase, 19 files verified on SHUTTLE A and SHUTTLE B with SHA-256, with an Eject button"></figure>
+        <figure class="finish-shot"><img src="assets/mac-safe.png" width="1740" height="450" alt="The transfer list: CardA is safe to erase with an Eject button, CardB is copying, CardC is waiting"></figure>
       </section>
 
       <section class="install" id="install">
@@ -252,7 +252,7 @@
           </a>
           <span class="brew"><code id="brew">brew install --cask bitmatchapp/tap/bitmatch</code><button type="button" id="copy">Copy</button></span>
         </div>
-        <p class="fine">Signed and notarized by Apple. The first time you use a drive, BitMatch asks once for permission to use your drives. It's beta software from a one-person project: try it with files you don't need first, and keep the card until every drive finishes.</p>
+        <p class="fine">Signed and notarized by Apple, and it updates itself from inside the app. The first time you use a drive, BitMatch asks once for permission to use your drives. It's beta software from a one-person project: try it with files you don't need first, and keep the card until every drive finishes.</p>
       </section>
     </main>
 
