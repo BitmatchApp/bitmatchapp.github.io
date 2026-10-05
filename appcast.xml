@@ -5,6 +5,15 @@
     <link>https://bitmatchapp.github.io/</link>
     <description>BitMatch release updates</description>
     <item>
+      <title>Version 0.2.4</title>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+      <pubDate>Mon, 05 Oct 2026 02:05:16 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://github.com/BitmatchApp/Bitmatch/releases/tag/v0.2.4</sparkle:releaseNotesLink>
+      <sparkle:minimumSystemVersion>15.5</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/BitmatchApp/Bitmatch/releases/download/v0.2.4/BitMatch-0.2.4.dmg" sparkle:edSignature="wTPf4kIOv5FQ7/ShflEe7MHPHJCVZouXQ8S7q/9X1WJOzyNSGLBO6bGm/mZLRmzGEWuaSNXN01vEjCphUEB1Dg==" length="7871385" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.2.3</title>
       <sparkle:version>12</sparkle:version>
       <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
